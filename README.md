@@ -5,6 +5,14 @@
 %    [best_pos, best_cost, nfe] = RLMOA(obj_fun, dim, lb, ub, max_iter)
 %    [best_pos, best_cost, nfe] = RLMOA(obj_fun, dim, lb, ub, max_iter, init_pop)
 %
+%  Functions:
+%%   Main Function : main.m
+%%   Local Helper Function 0: simulate_random_linear_motion.m
+%%   Local Helper Function 1: evaluate_population.m
+%%   Local Helper Function 2: update_solutions.m
+%%   Local Helper Function 3: apply_bounds.m
+%%   Local Helper Function 4: calculate_kinematics.m
+%
 %  Description:
 %    RLMO mimics cinematic physical motion principles (position, velocity, 
 %    acceleration, and time delay) to locate optimal solutions within a 
