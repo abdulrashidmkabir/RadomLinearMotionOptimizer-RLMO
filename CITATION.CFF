@@ -1,0 +1,11 @@
+```yaml
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Muhammad Kabir"
+    given-names: "Abdulrashid"
+    orcid: "https://orcid.org/0000-0002-5482-0640"
+title: "Random Linear Motion Optimizer (RLMO) Algorithm"
+version: 1.0.0
+date-released: 2026-09-27
+url: "https://github.com/abdulrashidmkabir/RadomLinearMotionOptimizer-RLMO"
