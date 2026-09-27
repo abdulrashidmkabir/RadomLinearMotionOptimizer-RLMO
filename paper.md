@@ -23,7 +23,16 @@ RandomLinearMotionOptimizer-RLMO is an open-source heuristic optimization algori
 Engineers and researchers frequently face high-dimensional search spaces where traditional gradient-based methods fail or stall at local optima. While algorithms such as Particle Swarm Optimization (PSO) or Grey Wolf Optimizer (GWO) exist, NameOfSoftware improves convergence rates and robustness for constrained engineering design problems.
 
 # Key Functionality
-The core execution routine is encapsulated in `main.m`. Users provide an objective function handle, search bounds, and population settings. Built-in stopping criteria include maximum iterations and function evaluation budgets.
+The core execution routine is encapsulated in `main.m`. Users provide an objective function handle, search bounds, and population settings. Built-in stopping criteria include maximum iterations and function evaluation budgets. The RLMO algorithm is achieved by 
+the following function components.   
+
+## Overall Function Components:
+##   Main Function : main.m
+##   Local Helper Function 0: simulate_random_linear_motion.m
+##   Local Helper Function 1: evaluate_population.m
+##   Local Helper Function 2: update_solutions.m
+##   Local Helper Function 3: apply_bounds.m
+##   Local Helper Function 4: calculate_kinematics.m
 
 # Mathematics & Mechanics
 The parameter updates rely on the following Equations of Linear Motion.
