@@ -1,0 +1,27 @@
+# ==========================================
+# MATLAB Clutter & Temporary Files to Ignore
+# ==========================================
+
+# Autosave & backup files
+*.asv
+*.m~
+*.bak
+*.tmp
+
+# MATLAB Figures, Data, and Workspace files
+*.fig
+*.mat
+*.slx.r*
+
+# Code Generation & Simulation Folders
+slprj/
+codegen/
+*.mex*
+*.p
+
+# Log Files & Desktop Setup
+*.log
+mfile.m~
+*.autosave
+.DS_Store
+Thumbs.db
