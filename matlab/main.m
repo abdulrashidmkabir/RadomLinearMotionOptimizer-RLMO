@@ -22,7 +22,7 @@ nfe = 0;           % Initialize Function Evaluation Counter
     end
     convergenceCurve=[];
     for cycle=1:cycles
-    [best_pos, best_cost, convergenceCurve0, nfe] = RLM(obj_fun, dim, lb, ub, cycles^3, pop_init, nfe);
+    [best_pos, best_cost, convergenceCurve0, nfe] = simulate_random_linear_motion(obj_fun, dim, lb, ub, cycles^3, pop_init, nfe);
     pop_init=(best_pos+pop_init)/2;
     pop_init(cycle,:)=best_pos;
     convergenceCurve=[convergenceCurve,convergenceCurve0];
