@@ -1,4 +1,21 @@
 # RadomLinearMotionOptimizer-RLMO
+% RMLO is improved optimizer with higher rate of convergence that can solve any 
+% Optimization problem defined using its Objective function. 
+% Further descriptions are provided in the following
+## Features
+- Fast convergence for complex bounds.
+- Easy integration with MATLAB/Python workflows.
+  
+## Installation & Requirements
+- MATLAB R2021a 
+- No external toolboxes required.
+
+## Quick Start
+Run `demo_RLMO.m` to execute a benchmark run on a standard test function.
+Example Test Objective Function are provided in ' test_RLMO.m'
+
+## Usage Example
+```MATLAB
 %% Random Linear Motion Optimizer (RLMO) Algorithm
 %
 %  Syntax:
