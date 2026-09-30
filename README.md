@@ -19,8 +19,8 @@ Example Test Objective Function are provided in ' test_RLMO.m'
 %% Random Linear Motion Optimizer (RLMO) Algorithm
 %
 %  Syntax:
-%    [best_pos, best_cost, nfe] = RLMOA(obj_fun, dim, lb, ub, max_iter)
-%    [best_pos, best_cost, nfe] = RLMOA(obj_fun, dim, lb, ub, max_iter, init_pop)
+%    [best_pos, best_cost, ConvergenceCurve, nfe] = RLMOA(obj_fun, dim, lb, ub, max_iter)
+%    [best_pos, best_cost, ConvergenceCurve, nfe] = RLMOA(obj_fun, dim, lb, ub, max_iter, init_pop)
 %
 %  Functions:
 %%   Main Function : main.m
